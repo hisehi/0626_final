@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="content.css">
+</head>
+<body>
+    <div class="content">
+        <div class="in">
+            <img src="img/contentimg.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script>
+        const fadeEls = document.querySelectorAll('.in');
+        gsap.from(fadeEls, {
+            duration: 3,
+            scale: .6,
+            ease: 'bounce.out',
+            opacity: 0,
+            stagger: 0.7
+        })
+    </script>
+</body>
+</html>

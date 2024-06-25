@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ccecff;
+}
+
+/* nav */
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #efbcc7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+nav h3{
+    color: white;
+    letter-spacing: 7px;
+    word-spacing: 10px;
+}
+
+/* home */
+.home{
+    display: flex;
+    justify-content: center;
+}
+.home .backimg img{
+    width: 1220px;
+}
+.board img{
+    width: 350px;
+    position: absolute;
+    left: 400px;
+    top: 420px;
+}
+.board h3{
+    position: absolute;
+    left: 480px;
+    top: 435px;
+    color: #5e4f41;
+}
+.board a:hover h3{
+    color: #efbcc7;
+    font-size: 24px;
+}
+.board a:hover img{
+    width: 380px;
+}
+
+/* profile */
+.desk img{
+    width: 420px;
+    position: absolute;
+    left: 420px;
+    top: 700px;
+}
+.desk h3{
+    position: absolute;
+    left: 670px;
+    top: 730px;
+    color: #5e4f41;
+}
+.desk a:hover h3{
+    color: #efbcc7;
+    font-size: 24px;
+}
+.desk a:hover img{
+    width: 450px;
+}
+
+.window img{
+    width: 500px;
+    position: absolute;
+    right: 440px;
+    top: 250px;
+}
+.window h3{
+    position: absolute;
+    right: 640px;
+    top:350px;
+    color: #5e4f41;
+}
+.window a:hover h3{
+    color: #efbcc7;
+    font-size: 24px;
+}
+.window a:hover img{
+    width: 530px;
+}
+
+
+.cha img{
+    width: 150px;
+    position: absolute;
+    left: 850px;
+    top: 810px;
+}
+.cha h3{
+    position: absolute;
+    color: #5e4f41;
+    top: 820px;
+    left: 980px;
+    opacity: 0;
+}
+.cha a:hover h3{
+    opacity: 100%;
+}
+.cha a:hover img{
+    width: 152px;
+}
+
+
+
+

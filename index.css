@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ccecff;
+}
+.home{
+    width: 1920px;
+    height: auto;
+}
+.home h3{
+    position: absolute;
+    color: #efbcc7;
+    font-size: 25px;
+    right: 270px;;
+    top: 250px;
+}
+.home .year img{
+    position: absolute;
+    top: 230px;
+    left: 750px;
+}
+
+/* 창문 */
+.img_1 img{
+    width: 170px;
+    position: absolute;
+    left: 315px;
+    top: 295px;
+}
+.img_2 img{
+    width: 170px;
+    position: absolute;
+    left: 400px;
+    top: 535px;
+}
+.img_3 img{
+    position: absolute;
+    width: 170px;
+    left: 745px;
+    top: 535px;
+}
+
+/* 글씨 */
+.text{
+    position: absolute;
+    left: 200px;
+    top: 250px;
+}
+
+.down{
+    top: 200px;
+    margin-left: 100px;
+}
+
+body h1{
+    font-size: 180px;
+    color: #5e4f41;
+    margin-right: 180px;
+    letter-spacing: 20px;
+    
+}
+
+/* cloud */
+.cloud .floating1{
+    position: absolute;
+    top: -80px;
+    left: -300px;
+}
+.cloud .floating2{
+    position: absolute;
+    top: 450px;
+    right: -300px;
+}
+
+.cloud .floating3{
+    position: absolute;
+    top: 620px;
+    left: -50px;
+}
+.cloud .floatingh{
+    position: absolute;
+    width: 600px;
+    right: 300px;
+    top: -180px;
+}
+
+.home .cloud a:hover h3{
+    font-size: 32px;
+}
+.home .cloud a:hover img{
+    width: 630px;
+}

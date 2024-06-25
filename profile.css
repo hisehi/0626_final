@@ -1,0 +1,163 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    width: 100%;
+    background-color: #fff1e6;
+}
+/* navi */
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: #efbcc7;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+nav .logo{
+    position: absolute;
+    left: 100px;
+}
+nav .logo a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+nav li{
+    display: flex;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li a h3{
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    letter-spacing: 5px;
+}
+
+/* profile */
+.profile{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.profile img{
+    width: 100%;
+    position: absolute;
+}
+.profile h1{
+    position: absolute;
+    font-size: 100px;
+    top: 250px;
+    color: #5e4f41;
+    letter-spacing: 5px;
+}
+.profile h2{
+    position: absolute;
+    color: #5e4f41;
+    top: 680px;
+    left: 900px;
+    font-size: 32px;
+    line-height: 2;
+}
+
+
+.contact img{
+    width: 100%;
+    left: 1px;
+    position: absolute;
+}
+.contact h3{
+    position: absolute;
+    top: 1000px;
+    left: 370px;
+    color: #5e4f41;
+    font-size: 50px;
+}
+.contact p{
+    position: absolute;
+    top: 1150px;
+    left: 330px;
+    color: #5e4f41;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.education img{
+    position: absolute;
+    width: 100%;
+    right: 1px;
+}
+.education h3{
+    position: absolute;
+    top: 950px;
+    right: 325px;
+    color: #5e4f41;
+    font-size: 50px;
+}
+.education p{
+    width: 500px;
+    position: absolute;
+    top: 1090px;
+    right: 170px;
+    color: #5e4f41;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.skills img{
+    position: relative;
+    width: 100%;
+    left: 1px;
+}
+.skills h3{
+    position: absolute;
+    top: 1240px;
+    left: 770px;
+    color: #5e4f41;
+    font-size: 50px;
+}
+.skills p{
+    position: absolute;
+    top: 1390px;
+    left: 690px;
+    color: #5e4f41;
+    font-size: 25px;
+    line-height: 2;
+}
+
+
+.contact{
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(-150px);
+}
+.education{
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(150px);
+    
+}
+.skills{
+    opacity: 0;
+    transition: 1s;
+    transform: translateX(-150px);
+}
+
+.show .contact{
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 0.5s;
+}
+.show .education{
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 1.0s;
+}
+.show .skills{
+    opacity: 1;
+    transform: translateX(0);
+    transition-delay: 1.5s;
+}
